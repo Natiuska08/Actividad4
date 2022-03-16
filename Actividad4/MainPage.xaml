@@ -1,0 +1,330 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Actividad4.MainPage">
+    <TabbedPage.Children>
+
+        <ContentPage Title="Photos y images">
+            <StackLayout BackgroundColor="WhiteSmoke">
+
+                <FlexLayout Direction="Row"  Wrap="Wrap" Margin="5" JustifyContent="Center"  AlignContent="Start"  AlignItems="Start">
+                    <Label Text="all photos" 
+               TextColor="Black"
+               FontSize="30" 
+               HorizontalTextAlignment="Center"
+               FontAttributes="Bold"
+               HeightRequest="150" 
+               WidthRequest="180" 
+               BackgroundColor="MediumPurple"
+               Margin="11"/>
+
+                    <Label Text="favorites" 
+               TextColor="Black"
+               FontSize="30" 
+               HorizontalTextAlignment="Center" 
+               FontAttributes="Bold"
+               HeightRequest="150" 
+               WidthRequest="180"
+               BackgroundColor="LightPink" 
+               Margin="11"/>
+                    <Label Text="albums" 
+               TextColor="Black"
+               FontSize="30" 
+               HorizontalTextAlignment="Center" 
+               FontAttributes="Bold"
+               HeightRequest="150" 
+               WidthRequest="180" 
+               BackgroundColor="LightGreen"
+               Margin="11"/>
+                    <Label Text="deleted"
+               TextColor="Black"
+               FontSize="30" 
+               HorizontalTextAlignment="Center" 
+               FontAttributes="Bold" 
+               HeightRequest="150" 
+               WidthRequest="180" 
+               BackgroundColor="SandyBrown"
+               Margin="11"/>
+                </FlexLayout>
+
+                <FlexLayout Direction="Row"  Wrap="Wrap" Margin="2" JustifyContent="Center"  AlignContent="Start" AlignItems="Start">
+                    <Image Source="camara.PNG"  HeightRequest="100" WidthRequest="70" Margin="2"/>
+                    <Image Source="camara.PNG" HeightRequest="100" WidthRequest="70" Margin="2"/>
+                    <Image Source="camara.PNG" HeightRequest="100" WidthRequest="70"  Margin="2"/>
+                    <Image Source="camara.PNG" HeightRequest="100" WidthRequest="70"  Margin="2"/>
+                    <Image Source="camara.PNG" HeightRequest="100" WidthRequest="70"  Margin="2"/>
+                    <Image Source="camara.PNG" HeightRequest="100" WidthRequest="70" Margin="2"/>
+                    <Image Source="camara.PNG" HeightRequest="100" WidthRequest="70"  Margin="2"/>
+                    <Image Source="camara.PNG" HeightRequest="100" WidthRequest="70" Margin="2"/>
+                    <Image Source="camara.PNG" HeightRequest="100" WidthRequest="70"  Margin="2"/>
+                    <Image Source="camara.PNG" HeightRequest="100" WidthRequest="70"  Margin="2"/>
+                    <Image Source="camara.PNG" HeightRequest="100" WidthRequest="70"  Margin="2"/>
+                    <Image Source="camara.PNG" HeightRequest="100" WidthRequest="70"  Margin="2"/>
+                    <Image Source="camara.PNG" HeightRequest="100" WidthRequest="70"  Margin="2"/>
+                    <Image Source="camara.PNG" HeightRequest="100" WidthRequest="70"  Margin="2"/>
+                    <Image Source="camara.PNG" HeightRequest="100" WidthRequest="70"  Margin="2"/>
+
+                </FlexLayout>
+
+                <FlexLayout Direction="Row"  Wrap="Wrap" Margin="2" JustifyContent="Center" BackgroundColor="#F05B3A">
+                    <Image Source="mas.png"  HeightRequest="60" WidthRequest="50" Margin="2"/>
+                    <Image Source="lupa.png" HeightRequest="60" WidthRequest="70" Margin="2"/>
+                    <Image Source="confi.png" HeightRequest="60" WidthRequest="70"  Margin="2"/>
+                </FlexLayout>
+
+
+            </StackLayout>
+        </ContentPage>
+
+        <ContentPage  Title=" Friends Feed">
+            <StackLayout BackgroundColor="WhiteSmoke">
+
+                <FlexLayout  Margin="10" Wrap="Wrap" JustifyContent="Center"  AlignContent="Start" AlignItems="Start">
+                    <Image Source="contacto.PNG" Aspect="Fill" HeightRequest="60" WidthRequest="60"/>
+                    <Label Text="John Doe" BackgroundColor="LightGray" HeightRequest="60" WidthRequest="200"  TextColor="Blue" FontSize="25" HorizontalTextAlignment="Start" FontAttributes="Bold"/>
+                    <Label Text="Today, 12 AM" HorizontalTextAlignment="End"  BackgroundColor="LightGray" HeightRequest="60" WidthRequest="100"  TextColor="Black" />
+                </FlexLayout>
+
+                <FlexLayout Direction="Row"  Wrap="Wrap"  JustifyContent="Center">
+                    <Image Source="galeria.PNG"  HeightRequest="100" WidthRequest="125" Margin="2"/>
+                    <Image Source="galeria.PNG" HeightRequest="100" WidthRequest="125" Margin="2"/>
+                    <Image Source="galeria.PNG" HeightRequest="100" WidthRequest="125"  Margin="2"/>
+                </FlexLayout>
+
+                <Label Text="This property allows us to have even more control over the organization of the items in the contâiner. The property value can be from zero to any positive numeric value.This property allows us to have even more control over the organization of the items in the contâiner. The property value can be from zero to any positive numeric value."
+                       TextColor="Black" 
+                       FontSize="15" 
+                       HorizontalTextAlignment="Center" 
+                       FontAttributes="None"/>
+                
+                  <Image Source="barra.PNG"/>
+
+                <FlexLayout  Margin="10" Wrap="Wrap" JustifyContent="Center"  AlignContent="Start" AlignItems="Start">
+                    <Image Source="contacto.PNG" Aspect="Fill" HeightRequest="60" WidthRequest="60"/>
+                    <Label Text="John Doe" BackgroundColor="LightGray" HeightRequest="60" WidthRequest="200"  TextColor="Blue" FontSize="25" HorizontalTextAlignment="Start" FontAttributes="Bold"/>
+                    <Label Text="Today, 12 AM" HorizontalTextAlignment="End"  BackgroundColor="LightGray" HeightRequest="60" WidthRequest="100"  TextColor="Black" />
+                </FlexLayout>
+                <Label Text="This property allows us to have even more control over the organization of the items in the contâiner. The property value can be from zero to any positive numeric value.This property allows us to have even more control over the organization of the items in the contâiner. The property value can be from zero to any positive numeric value."
+                       TextColor="Black" 
+                       FontSize="15" 
+                       HorizontalTextAlignment="Center" 
+                       FontAttributes="None"/>
+
+                <Image Source="barra.PNG"/>
+
+                <FlexLayout  Margin="10" Wrap="Wrap" JustifyContent="Center"  AlignContent="Start" AlignItems="Start">
+                    <Image Source="contacto.PNG" Aspect="Fill" HeightRequest="60" WidthRequest="60"/>
+                    <Label Text="John Doe" BackgroundColor="LightGray" HeightRequest="60" WidthRequest="200"  TextColor="Blue" FontSize="25" HorizontalTextAlignment="Start" FontAttributes="Bold"/>
+                    <Label Text="Today, 12 AM" HorizontalTextAlignment="End"  BackgroundColor="LightGray" HeightRequest="60" WidthRequest="100"  TextColor="Black" />
+                </FlexLayout>
+                <Label Text="This property allows us to have even more control over the organization of the items in the contâiner. The property value can be from zero to any positive numeric value.This property allows us to have even more control over the organization of the items in the contâiner. The property value can be from zero to any positive numeric value."
+                       TextColor="Black" 
+                       FontSize="15" 
+                       HorizontalTextAlignment="Center" 
+                       FontAttributes="None"/>
+
+                <Image Source="barra.PNG"/>
+
+            </StackLayout>
+        </ContentPage>
+
+        <ContentPage Title="Music Tracks">
+            <StackLayout BackgroundColor="WhiteSmoke">
+
+                <Grid Padding="10" BackgroundColor="#F05B3A">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="250"/>
+                        <ColumnDefinition Width="30"/>
+                        <ColumnDefinition Width="30"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+
+                    <SearchBar BackgroundColor="#C64D33"
+                           Grid.Column="0"
+                           Grid.Row="0"/>
+
+                    <ImageButton Source="mas.png" Grid.Column="2" Grid.Row="0" BackgroundColor="Transparent"/>
+                    <ImageButton Source="cora.png" Grid.Column="1" Grid.Row="0" BackgroundColor="Transparent"/>
+
+                </Grid>
+
+
+                <Label Text="Playlists"  Margin="15" HeightRequest="60" WidthRequest="100"  TextColor="Blue" FontSize="25" HorizontalTextAlignment="Center" FontAttributes="Bold"/>
+
+                <FlexLayout Wrap="Wrap" Margin="2" JustifyContent="Start"  AlignContent="Start" AlignItems="Start">
+                    <Image Source="play.PNG"  HeightRequest="100" WidthRequest="112" Margin="8"/>
+                    <Image Source="play.PNG"  HeightRequest="100" WidthRequest="112" Margin="8"/>
+                    <Image Source="play.PNG"  HeightRequest="100" WidthRequest="115" Margin="8"/>
+                    <Label Text="My playlist"  HeightRequest="100" WidthRequest="120"  Margin="3" TextColor="Black" FontSize="16" HorizontalTextAlignment="Center" FontAttributes="None"/>
+                    <Label Text="Favorites" HeightRequest="100" WidthRequest="120"  Margin="3" TextColor="Black" FontSize="16" HorizontalTextAlignment="Center" FontAttributes="None"/>
+                    <Label Text="Winter" HeightRequest="100" WidthRequest="120"  Margin="3" TextColor="Black" FontSize="16" HorizontalTextAlignment="Center" FontAttributes="None"/>
+                </FlexLayout>
+
+                <Label Text="Artists"  Margin="1" HeightRequest="60" WidthRequest="100"  TextColor="Blue" FontSize="25" HorizontalTextAlignment="Center" FontAttributes="Bold"/>
+
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="1*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="20"/>
+                        <RowDefinition Height="20" />
+                    </Grid.RowDefinitions>
+
+                    <Image Grid.RowSpan="2"
+                        Source="musica.PNG"
+                        Aspect="Fill"
+                        HeightRequest="50"
+                        WidthRequest="50"
+                        Margin="3"/>
+
+                    <Label Text="John Doe" Grid.Column="1" Grid.Row="0" TextColor="Blue"/>
+                    <Label Text="1 Album | 23 songs" Grid.Column="1" Grid.Row="1"/>
+                    <Image Source="reproducir.PNG" Grid.Column="2" Aspect="Fill"/>
+                </Grid>
+
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="1*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="20"/>
+                        <RowDefinition />
+                    </Grid.RowDefinitions>
+
+                    <Image Grid.RowSpan="2"
+                        Source="musica.PNG"
+                        Aspect="Fill"
+                        HeightRequest="50"
+                        WidthRequest="50"
+                           Margin="3"/>
+
+                    <Label Text="John Doe" Grid.Column="1" Grid.Row="0" TextColor="Blue"/>
+                    <Label Text="1 Album | 23 songs" Grid.Column="1" Grid.Row="1"/>
+                    <Image Source="reproducir.PNG" Grid.Column="2" Aspect="Fill"/>
+                </Grid>
+
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="1*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="20"/>
+                        <RowDefinition />
+                    </Grid.RowDefinitions>
+
+                    <Image Grid.RowSpan="2"
+                        Source="musica.PNG"
+                        Aspect="Fill"
+                        HeightRequest="50"
+                        WidthRequest="50"
+                           Margin="3"/>
+
+                    <Label Text="John Doe" Grid.Column="1" Grid.Row="0" TextColor="Blue"/>
+                    <Label Text="1 Album | 23 songs" Grid.Column="1" Grid.Row="1"/>
+                    <Image Source="reproducir.PNG" Grid.Column="2" Aspect="Fill"/>
+                </Grid>
+
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="1*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="20"/>
+                        <RowDefinition />
+                    </Grid.RowDefinitions>
+
+                    <Image Grid.RowSpan="2"
+                        Source="musica.PNG"
+                        Aspect="Fill"
+                        HeightRequest="50"
+                        WidthRequest="50"
+                           Margin="3"/>
+
+                    <Label Text="John Doe" Grid.Column="1" Grid.Row="0" TextColor="Blue"/>
+                    <Label Text="1 Album | 23 songs" Grid.Column="1" Grid.Row="1"/>
+                    <Image Source="reproducir.PNG" Grid.Column="2" Aspect="Fill"/>
+                </Grid>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="1*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="20"/>
+                        <RowDefinition />
+                    </Grid.RowDefinitions>
+
+                    <Image Grid.RowSpan="2"
+                        Source="musica.PNG"
+                        Aspect="Fill"
+                        HeightRequest="50"
+                        WidthRequest="50"
+                           Margin="3"/>
+
+                    <Label Text="John Doe" Grid.Column="1" Grid.Row="0" TextColor="Blue"/>
+                    <Label Text="1 Album | 23 songs" Grid.Column="1" Grid.Row="1"/>
+                    <Image Source="reproducir.PNG" Grid.Column="2" Aspect="Fill"/>
+                </Grid>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="1*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="20"/>
+                        <RowDefinition />
+                    </Grid.RowDefinitions>
+
+                    <Image Grid.RowSpan="2"
+                        Source="musica.PNG"
+                        Aspect="Fill"
+                        HeightRequest="50"
+                        WidthRequest="50"
+                           Margin="3"/>
+
+                    <Label Text="John Doe" Grid.Column="1" Grid.Row="0" TextColor="Blue"/>
+                    <Label Text="1 Album | 23 songs" Grid.Column="1" Grid.Row="1"/>
+                    <Image Source="reproducir.PNG" Grid.Column="2" Aspect="Fill"/>
+                </Grid>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="1*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="20"/>
+                        <RowDefinition />
+                    </Grid.RowDefinitions>
+
+                    <Image Grid.RowSpan="2"
+                        Source="musica.PNG"
+                        Aspect="Fill"
+                        HeightRequest="50"
+                        WidthRequest="50"
+                           Margin="3"/>
+
+                    <Label Text="John Doe" Grid.Column="1" Grid.Row="0" TextColor="Blue"/>
+                    <Label Text="1 Album | 23 songs" Grid.Column="1" Grid.Row="1"/>
+                    <Image Source="reproducir.PNG" Grid.Column="2" Aspect="Fill"/>
+                </Grid>
+
+            </StackLayout>
+        </ContentPage>
+        
+    </TabbedPage.Children>
+</TabbedPage>
